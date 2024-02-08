@@ -1,0 +1,15 @@
+The key steps are:
+
+1-Generate initial design of experiments (DoE) using quasi-Monte Carlo Sobol sequence
+2-Evaluate simulator at each point
+3-Train ANFIS surrogate model
+4-Optimize surrogate model using genetic algorithm
+5-Update DoE by adding new points around surrogate optimum
+6-Retrain surrogate model
+7-Repeat process for max iterations
+8-The code uses some placeholder functions for the reservoir simulator, ANFIS model, and genetic algorithm. These would need to be replaced with actual implementations.
+
+I included a simple quadratic objective function to demonstrate the approach. The key ASRM steps are implemented in the asrm() function.
+
+
+https://claude.ai/chat/f4f18866-770f-482d-97b5-3c757acd3035

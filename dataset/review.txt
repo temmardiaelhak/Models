@@ -1,0 +1,14 @@
+The key aspects:
+
+1- Load UNISIM case and extract grid, properties and simulator interface
+2- Define optimization constraints like distance from existing wells, grid bounds
+3- Initialize ASRM optimizer with simulator, grid, constraints
+4- Perform optimization and retrieve best location
+5- Print solution and render well on grid
+6- The unisim package handles loading data and interfacing with the simulator.
+
+ASRM class encapsulates the adaptive optimization workflow.
+
+Constraints like distance and bounds are defined separately for clarity.
+
+https://claude.ai/chat/9cf2c9fd-ac2b-48e5-bba4-dd72d2aedc33
